@@ -1,6 +1,6 @@
 {
   "name": "yapi-plugin-cas-hj",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "基于cas的yapi单点登录插件，兼容一些特殊的业务场景",
   "main": "index.js",
   "scripts": {
