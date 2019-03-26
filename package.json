@@ -1,20 +1,19 @@
 {
-  "name": "yapi-plugin-cas",
-  "version": "0.0.1",
-  "description": "基于cas的yapi单点登录插件",
+  "name": "yapi-plugin-cas-hj",
+  "version": "0.0.2",
+  "description": "基于cas的yapi单点登录插件，兼容一些特殊的业务场景",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wsfe/yapi-plugin-cas.git"
+    "url": "git+https://github.com/beyondghx/yapi-plugin-cas.git"
   },
   "dependencies": {
-    "request": "^2.83.0",
-    "xml2js": "^0.4.19"
+    "request": "^2.83.0"
   },
-  "author": "panyx",
+  "author": "beyondghx",
   "license": "ISC",
-  "homepage": "https://github.com/wsfe/yapi-plugin-cas.git#readme"
+  "homepage": "https://github.com/beyondghx/yapi-plugin-cas"
 }

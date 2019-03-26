@@ -20,7 +20,7 @@ module.exports = function (options) {
   }
 
   const WSComponent = () => (
-    <button onClick={handleLogin} className="btn-home btn-home-normal" >PORTAL 登录</button>
+    <button onClick={handleLogin} className="btn-home btn-home-normal" >SSO 登录</button>
   )
   this.bindHook('third_login', WSComponent);
 }
