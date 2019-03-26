@@ -9,11 +9,11 @@ module.exports = function (options) {
     return new Promise((resolve, reject) => {
       request.get(validateUrl, function(error, response, body = '') {
         if (!error && response.statusCode == 200) {
-          let result = body.split('\n ');
-          let status = result[0] === 'yes' ? 1 : 0;
+          let result = body.replace(/[\n\r]/g, '|').split('|')
+          let status = result[0] === 'yes' ? 1 : 0
 
           if (status) {
-            let username = result[1] || '';
+            let username = result[1] || ''
             resolve({
               email: username + emailPostfix,
               username: username
